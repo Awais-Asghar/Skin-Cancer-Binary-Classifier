@@ -19,18 +19,20 @@ A machine learning project for binary classification of skin cancer as malignant
 
 ![Image](https://github.com/user-attachments/assets/0e617997-50d1-44e1-b3a2-16b90650bfcf)
 
--Count of Targets by Anatomical Site
+- Count of Targets by Anatomical Site
 ![Image](https://github.com/user-attachments/assets/741e745a-d990-42f7-b468-e6617a5ea078)
 
--Count of Targets by Age 
+- Count of Targets by Age 
 ![Image](https://github.com/user-attachments/assets/ddc5fede-8b81-4867-b777-1ba1210c51d3)
 
--Count of Targets by Sex
+- Count of Targets by Sex
 ![Image](https://github.com/user-attachments/assets/8fc07d31-d2fa-40c0-a706-6418963a0890)
 - Analyze class distribution (malignant vs. benign).
+   Benign         400666
+   Malignant       393
+
 ![Image](https://github.com/user-attachments/assets/fdf47299-6d82-4b04-8af3-a8386a7e90f2)
-### Benign         400666
-### Malignant       393
+
 - Review metadata (patient age, lesion location, etc.).
 ![Image](https://github.com/user-attachments/assets/b1f39c1c-2023-4d35-b058-4f986008ccfb)
 
@@ -58,14 +60,18 @@ A machine learning project for binary classification of skin cancer as malignant
 - Support Vector Machine (SVM)
 - Logistic Regression
 - (Optional) Neural Network (for deep learning approach)
+
 ![Image](https://github.com/user-attachments/assets/e538dcf7-7fc5-4795-ad73-1611b0f7ecad)
+
 ---
 
 ### Training Techniques
 - Hyperparameter tuning using Grid/Random Search.
 - K-Fold Cross-validation.
 - Model-specific optimizations (e.g., SVM kernels, NN architecture).
+
 ![Image](https://github.com/user-attachments/assets/2cf85eb7-fb61-4547-bc29-b5d16545e086)
+
 ---
 
 ## Evaluation
@@ -73,7 +79,9 @@ A machine learning project for binary classification of skin cancer as malignant
 - **Metrics**: Accuracy, Precision, Recall, F1-Score, AUC.
 - **Validation**: Regular monitoring using a validation set.
 - **Confusion Matrix**: For visualizing classification errors.
+
 ![Image](https://github.com/user-attachments/assets/5377603a-7b55-4825-a533-c9c13819db28)
+
 ---
 
 ## Tech Stack
@@ -87,11 +95,12 @@ A machine learning project for binary classification of skin cancer as malignant
 
 ---
 
-
 ## How to Run
 
-1. Go to the Kaggle Notebook:
-   > 📎 _[Link to the Notebook](your-kaggle-notebook-link-here)
+1. Go to the Kaggle Notebook using the link below:
+
+https://www.kaggle.com/code/masharjavid/final-skin-cancer-binary-classifier 
+
 2. Open the notebook and run all cells.
 3. Dataset is already uploaded in the Kaggle environment and linked within the notebook.
 
@@ -100,7 +109,7 @@ A machine learning project for binary classification of skin cancer as malignant
 ## Results
 - **Best AUC Score**: _0.963_
 - **Highest Accuracy**: _90.02%_
-- **Top Performing Model**: _XGBOOST_
+- **Top Performing Model**: _LGBM-Classifier_
 - **Train loss**: _0.1646_
 - **Validation loss**: _0.1245_
 - **Recall**: _0.876_
@@ -113,9 +122,5 @@ A machine learning project for binary classification of skin cancer as malignant
 ---
 
 ## Future Work
-
-- Incorporate CNNs for deep learning classification.
 - Web/Mobile app deployment with UI for diagnosis.
 - Explore larger datasets for improved generalization.
-- Add metadata-driven model fusion for higher accuracy.
-
