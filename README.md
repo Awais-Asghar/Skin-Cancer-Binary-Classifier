@@ -1,6 +1,6 @@
 # Skin-Cancer-Binary-Classifier
 ![Project Status](https://img.shields.io/badge/status-Completed-brightgreen.svg)
-![Platform](https://img.shields.io/badge/platform-Kaggle-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Kaggle-pink.svg)
 ![Environment](https://img.shields.io/badge/environment-Jupyter%20Notebook-orange.svg)
 ![Language](https://img.shields.io/badge/language-Python-blue.svg)
 
