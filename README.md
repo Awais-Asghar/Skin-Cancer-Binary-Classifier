@@ -3,6 +3,7 @@
 ![Platform](https://img.shields.io/badge/platform-Kaggle-pink.svg)
 ![Environment](https://img.shields.io/badge/environment-Jupyter%20Notebook-orange.svg)
 ![Language](https://img.shields.io/badge/language-Python-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 
 A machine learning project for binary classification of skin cancer as malignant or benign, utilizing models like XGBoost, LGBM Classifier, Adaboost, SVM, and Logistic Regression. This pipeline involves preprocessing, visualization, modeling, and evaluation, making it a powerful diagnostic aid in dermatology.
 
