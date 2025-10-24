@@ -1,4 +1,4 @@
-# Skin-Cancer-Binary-Classifier
+# SkinSense: Multi-Model ML Pipeline for Binary Skin Cancer Classification
 ![Project Status](https://img.shields.io/badge/status-Completed-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/platform-Kaggle-pink.svg)
 ![Environment](https://img.shields.io/badge/environment-Jupyter%20Notebook-orange.svg)
